@@ -71,7 +71,7 @@ export default function EmployeesPage() {
   };
 
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-white text-black">
+    <div className="w-full h-screen flex items-center justify-center text-black">
       <div className="w-[90%] flex flex-col items-center" style={{ marginTop: '-10%' }}>
         <h1 className="text-6xl font-bold mb-16">Our Team</h1>
         <div className="w-full">
@@ -81,7 +81,7 @@ export default function EmployeesPage() {
                 key={employee.id}
                 className="px-2 py-2 flex justify-center"
               >
-                <div className="p-4 shadow rounded-sm hover:shadow-md transition-shadow flex flex-col items-center justify-center h-96">
+                <div className="p-4 bg-white shadow rounded-sm hover:shadow-md transition-shadow flex flex-col items-center justify-center h-96">
                   <div className="relative w-52 h-52 mb-3 bg-gray-100 rounded-full overflow-hidden">
                     <Image
                       src={`/profile-placeholder.jpg`}

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="bg-white text-black py-8 shadow-md">
+        <footer className="text-black py-8 shadow-md">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div>
@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
                     </div>
                     <div>
                         <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
-                        <div className="space-y-2 text-gray-300">
+                        <div className="space-y-2 text-neutral-700">
                             <p>Email: contact@impact-it.com</p>
                             <p>Phone: (123) 456-7890</p>
                             <p>Address: Your Business Address</p>
