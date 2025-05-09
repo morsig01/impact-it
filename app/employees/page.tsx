@@ -17,10 +17,16 @@ interface Employee {
   salary: number;
 }
 
+interface ArrowProps {
+  onClick?: () => void;
+  currentSlide?: number;
+  slideCount?: number;
+}
+
 export default function EmployeesPage() {
   const [employees] = useState<Employee[]>(employeesData.employees);
 
-  const NextArrow = (props: any) => (
+  const NextArrow = (props: ArrowProps) => (
     <div
       className="absolute right-[-30px] top-1/2 transform -translate-y-1/2 cursor-pointer z-10"
       onClick={props.onClick}
@@ -33,7 +39,7 @@ export default function EmployeesPage() {
     </div>
   );
 
-  const PrevArrow = (props: any) => (
+  const PrevArrow = (props: ArrowProps) => (
     <div
       className="absolute left-[-30px] top-1/2 transform -translate-y-1/2 cursor-pointer z-10"
       onClick={props.onClick}
