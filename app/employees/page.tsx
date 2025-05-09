@@ -14,7 +14,6 @@ interface Employee {
   department: string;
   position: string;
   hireDate: string;
-  salary: number;
 }
 
 interface ArrowProps {

@@ -7,8 +7,7 @@
             "email": "sarah.johnson@impact-it.com",
             "department": "Engineering",
             "position": "Senior Developer",
-            "hireDate": "2020-03-15",
-            "salary": 85000
+            "hireDate": "2020-03-15"
         },
         {
             "id": 1002,
@@ -17,8 +16,7 @@
             "email": "michael.chen@impact-it.com",
             "department": "Marketing",
             "position": "Marketing Manager",
-            "hireDate": "2019-08-01",
-            "salary": 78000
+            "hireDate": "2019-08-01"
         },
         {
             "id": 1003,
@@ -27,8 +25,7 @@
             "email": "emma.davis@impact-it.com",
             "department": "HR",
             "position": "HR Specialist",
-            "hireDate": "2021-01-10",
-            "salary": 65000
+            "hireDate": "2021-01-10"
         },
         {
             "id": 1004,
@@ -37,8 +34,7 @@
             "email": "james.wilson@impact-it.com",
             "department": "Engineering",
             "position": "Software Engineer",
-            "hireDate": "2021-06-15",
-            "salary": 75000
+            "hireDate": "2021-06-15"
         },
         {
             "id": 1005,
@@ -47,8 +43,7 @@
             "email": "lisa.garcia@impact-it.com",
             "department": "Sales",
             "position": "Sales Director",
-            "hireDate": "2020-09-20",
-            "salary": 90000
+            "hireDate": "2020-09-20"
         },
         {
             "id": 1006,
@@ -57,8 +52,7 @@
             "email": "david.kim@impact-it.com",
             "department": "Engineering",
             "position": "DevOps Engineer",
-            "hireDate": "2022-02-01",
-            "salary": 82000
+            "hireDate": "2022-02-01"
         },
         {
             "id": 1007,
@@ -67,8 +61,7 @@
             "email": "rachel.thompson@impact-it.com",
             "department": "Marketing",
             "position": "Content Specialist",
-            "hireDate": "2021-11-30",
-            "salary": 68000
+            "hireDate": "2021-11-30"
         },
         {
             "id": 1008,
@@ -77,8 +70,7 @@
             "email": "alex.martinez@impact-it.com",
             "department": "IT",
             "position": "System Administrator",
-            "hireDate": "2020-07-15",
-            "salary": 72000
+            "hireDate": "2020-07-15"
         }
     ]
 }
